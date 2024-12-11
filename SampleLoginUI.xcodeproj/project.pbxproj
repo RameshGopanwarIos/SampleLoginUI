@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D79A63EC2D09A27C00A002B4 /* LoginViewModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A63EB2D09A27C00A002B4 /* LoginViewModelTestCase.swift */; };
 		D7AEAB4A2D09571100C7A21E /* AlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEAB492D09571100C7A21E /* AlertControllerExtension.swift */; };
 		D7AEAB4C2D0957F300C7A21E /* ValidateCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEAB4B2D0957F300C7A21E /* ValidateCredentials.swift */; };
 		D7EC215B2D07213E00EBF26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC215A2D07213E00EBF26C /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D79A63EB2D09A27C00A002B4 /* LoginViewModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTestCase.swift; sourceTree = "<group>"; };
 		D7AEAB492D09571100C7A21E /* AlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerExtension.swift; sourceTree = "<group>"; };
 		D7AEAB4B2D0957F300C7A21E /* ValidateCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateCredentials.swift; sourceTree = "<group>"; };
 		D7EC21572D07213E00EBF26C /* SampleLoginUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLoginUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				D7EC21712D07213F00EBF26C /* SampleLoginUITests.swift */,
+				D79A63EB2D09A27C00A002B4 /* LoginViewModelTestCase.swift */,
 			);
 			path = SampleLoginUITests;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79A63EC2D09A27C00A002B4 /* LoginViewModelTestCase.swift in Sources */,
 				D7EC21722D07213F00EBF26C /* SampleLoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

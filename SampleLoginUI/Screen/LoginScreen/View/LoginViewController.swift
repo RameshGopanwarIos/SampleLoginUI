@@ -19,7 +19,6 @@ class LoginViewController: UIViewController {
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         let isValidCreds = loginViewModel.validateLogin(email.text, password.text)
         self.showAlert(isValidCreds.rawValue)
-        //print(isValidCreds)
     }
     
 }
