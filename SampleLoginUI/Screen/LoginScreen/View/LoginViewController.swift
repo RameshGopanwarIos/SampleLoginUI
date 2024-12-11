@@ -17,20 +17,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
-        let isValidCreds = loginViewModel.validCredentials(email.text, password.text)
-        showAlert(isValidCreds.rawValue)
-        print(isValidCreds)
-        
+        let isValidCreds = loginViewModel.validateLogin(email.text, password.text)
+        self.showAlert(isValidCreds.rawValue)
+        //print(isValidCreds)
     }
-    // Display alert when loginTapped
-    func showAlert(_ message: String) {
-        let alertController = UIAlertController(
-            title: "Alert",
-            message: message,
-            preferredStyle: .alert
-        )
-        let ok = UIAlertAction(title: "Okay", style: .default)
-        alertController.addAction(ok)
-        present(alertController, animated: true)
-    }
+    
 }
